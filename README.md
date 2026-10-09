@@ -1,11 +1,16 @@
-PREGUNTAS ANALITICAS:
-1.¿Que ventaja tecnica tiene crear un molde (funcion constructora) en lugar de escribir un objeto literal estructurado individualmente para cada computador?
-R/ Practicidad, se ahorra mas codigo y no se hace repetitivo, se cumple la idea de una funcion de no repetir codigo y se tiene un molde estandarizado.
-2. ¿Por ue un metodo interno puede acceder de manera precisa y aislada a las propiedades especificas de su propio objeto utilizando la palabra clave this?
-R/ Con la palabra clave .this se puede especificar la propiedad con la que uno quiere que trabaje ese metodo.
-3. ¿Que ventajas a nivel de cohesion de software presenta el hecho de que el objeto conozca por si mismo su estado logico (si aprobo o no)?
-R/ Considero que similar al punto 1 ahorrar codigo, dentro de la funcion constructura poder conocer su estado logico ahorra mucho tiempo y facilita el entender el codigo.
-4. ¿Que ocurriria si el libro ya estaba prestado y alguien intenta prestarlo nuevamente sin controles de estado internos?
-R/ La solucion del software no funcionaria, no se cumple el proposito de controlar el flujo de disponibilidad y no se tendria un control de si esta o no disponible.
-5. ¿Que ventajas tiene permitir que la informacion sea ingresada por el usuario en lugar de escribir los datos directamente en el codigo?
-R/ Se puede jugar mas con el codigo creado considero yo es como simular ingresar informacion en un sistema funcional para ese proposito.
+Preguntas analíticas
+
+    ¿Qué ventaja técnica tiene crear un molde (función constructora) en lugar de escribir un objeto literal para cada computador?
+    Se ahorra código y se evita repetir la misma estructura. Además, la función constructora permite crear objetos estandarizados de forma práctica y ordenada.
+
+    ¿Por qué un método interno puede acceder a las propiedades de su propio objeto mediante la palabra clave this?
+    this hace referencia al objeto actual. Así, el método puede consultar o modificar sus propiedades específicas sin afectar las de otros objetos.
+
+    ¿Qué ventajas de cohesión presenta que el objeto conozca su propio estado lógico (por ejemplo, si aprobó o no)?
+    La lógica relacionada con el estado queda dentro del objeto que contiene la información necesaria. Esto facilita la comprensión y el mantenimiento del código, y evita duplicar comprobaciones en otras partes del programa.
+
+    ¿Qué ocurriría si un libro ya prestado pudiera prestarse nuevamente sin controles internos de estado?
+    El sistema no controlaría correctamente la disponibilidad del libro y podría permitir préstamos duplicados. Esto impediría saber con certeza si el libro está disponible.
+
+    ¿Qué ventajas tiene permitir que el usuario ingrese la información en lugar de escribirla directamente en el código?
+    Permite probar el programa con distintos datos y simular el uso de un sistema real. También hace que el código sea más flexible, ya que no es necesario modificarlo cada vez que cambian los datos.
